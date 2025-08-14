@@ -1,6 +1,6 @@
 # A minimal setup for MacOS 
 This setup adds some useful applications, tools, and terminal features to your MacBook.
-I use this setup for mostly research (coding, paper writing, presentations, some admin stuff).
+I use this setup mostly for research (coding, paper writing, presentations, some admin stuff).
 
 **IMPORTANT:** Before you run the setup script, make sure to carefully check every command and see whether you really 
 want to install it on your machine. You may have some slightly different requirements than me.
