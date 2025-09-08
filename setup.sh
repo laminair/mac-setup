@@ -111,3 +111,6 @@ if [ ! -f ~/.ssh/id_ed25519 ] && [ ! -f ~/.ssh/id_rsa ] && [ ! -f ~/.ssh/id_ecds
     ssh-keygen -t ed25519 -C "$USER@$HOST" -f "$HOME""/.ssh/""$USER""_ed25519"
 fi
 echo "SSH key created and saved to ~/.ssh (ED-25519 key)"
+
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
+echo "Installed iTerm2 shell integration for proper key bindings"
